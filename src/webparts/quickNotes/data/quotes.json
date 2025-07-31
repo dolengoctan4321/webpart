@@ -1,0 +1,21 @@
+{
+  "Motivational": [
+    { "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.", "author": "Winston Churchill" },
+    { "quote": "The only way to do great work is to love what you do.", "author": "Steve Jobs" },
+    { "quote": "Don’t watch the clock; do what it does. Keep going.", "author": "Sam Levenson" },
+    { "quote": "Everything you’ve ever wanted is on the other side of fear.", "author": "George Addair" },
+    { "quote": "Hardships often prepare ordinary people for an extraordinary destiny.", "author": "C.S. Lewis" }
+  ],
+  "Productivity": [
+    { "quote": "It's not always that we need to do more but rather that we need to focus on less.", "author": "Nathan W. Morris" },
+    { "quote": "Amateurs sit and wait for inspiration, the rest of us just get up and go to work.", "author": "Stephen King" },
+    { "quote": "Work gives you meaning and purpose and life is empty without it.", "author": "Stephen Hawking" },
+    { "quote": "Until we can manage time, we can manage nothing else.", "author": "Peter Drucker" }
+  ],
+  "Humor": [
+    { "quote": "I find television very educating. Every time somebody turns it on, I go in the other room and read a book.", "author": "Groucho Marx" },
+    { "quote": "Behind every great man is a woman rolling her eyes.", "author": "Jim Carrey" },
+    { "quote": "I am an early bird and a night owl... so I am wise and I have worms.", "author": "Michael Scott" },
+    { "quote": "If at first you don't succeed, then skydiving definitely isn't for you.", "author": "Steven Wright" }
+  ]
+}

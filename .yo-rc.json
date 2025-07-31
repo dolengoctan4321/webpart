@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.14.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "quick-notes-web-part",
+    "libraryId": "d719b660-e859-4d33-8f9f-6a755aa3bf15",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "QuickNotesWebPart",
+    "solutionShortDescription": "QuickNotesWebPart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "quick-notes-web-part-client-side-solution",
+    "id": "d719b660-e859-4d33-8f9f-6a755aa3bf15",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "QuickNotesWebPart description"
+      },
+      "longDescription": {
+        "default": "QuickNotesWebPart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "quick-notes-web-part Feature",
+        "description": "The feature that activates elements of the quick-notes-web-part solution.",
+        "id": "1be966cd-6da2-41b6-8b79-81bb3213b308",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/quick-notes-web-part.sppkg"
+  }
+}
