@@ -156,30 +156,30 @@ export default class QuickNotesWebPart extends BaseClientSideWebPart<IQuickNotes
                 const modal = document.createElement("div");
                 modal.classList.add(styles.modalOverlay);
                 modal.innerHTML = `
-  <div class="${styles.modalCard}">
-    <h3>Edit Note</h3>
-    <div class="${styles.formGroup}">
-      <label for="editNote">Note:</label>
-      <textarea id="editNote" rows="3">${item.Note || ""}</textarea>
-    </div>
-    <div class="${styles.formGroup}">
-      <label for="editQuote">Quote:</label>
-      <input type="text" id="editQuote" value="${item.Quote || ""}" />
-    </div>
-    <div class="${styles.formGroup}">
-      <label for="editCategory">Category:</label>
-      <input type="text" id="editCategory" value="${item.Category || ""}" />
-    </div>
-    <div class="${styles.formGroup}">
-      <label for="editDate">Date:</label>
-      <input type="date" id="editDate" value="${item.Date ? new Date(item.Date).toISOString().substring(0, 10) : ""}" />
-    </div>
-    <div class="${styles.modalActions}">
-      <button id="saveEdit">💾 Save</button>
-      <button id="cancelEdit">❌ Cancel</button>
-    </div>
-  </div>
-`;
+                    <div class="${styles.modalCard}">
+                        <h3>Edit Note</h3>
+                        <div class="${styles.formGroup}">
+                        <label for="editNote">Note:</label>
+                        <textarea id="editNote" rows="3">${item.Note || ""}</textarea>
+                        </div>
+                        <div class="${styles.formGroup}">
+                        <label for="editQuote">Quote:</label>
+                        <input type="text" id="editQuote" value="${item.Quote || ""}" />
+                        </div>
+                        <div class="${styles.formGroup}">
+                        <label for="editCategory">Category:</label>
+                        <input type="text" id="editCategory" value="${item.Category || ""}" />
+                        </div>
+                        <div class="${styles.formGroup}">
+                        <label for="editDate">Date:</label>
+                        <input type="date" id="editDate" value="${item.Date ? new Date(item.Date).toISOString().substring(0, 10) : ""}" />
+                        </div>
+                        <div class="${styles.modalActions}">
+                        <button id="saveEdit">💾 Save</button>
+                        <button id="cancelEdit">❌ Cancel</button>
+                        </div>
+                    </div>
+                    `;
 
                 document.body.appendChild(modal);
 
